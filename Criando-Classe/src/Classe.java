@@ -4,7 +4,7 @@ public class Classe {
 		Contas primeiraConta = new Contas();
 		primeiraConta.agencia = 104;
 		primeiraConta.numeroDaConta = 138463;
-		primeiraConta.titular = "Guilherme J M Fontanella";
+		primeiraConta.titular = "Fulano de tal";
 		
 		System.out.println("Saldo em conta: R$" + primeiraConta.saldo);
 		System.out.println("Agencia: " + primeiraConta.agencia);
@@ -16,8 +16,7 @@ public class Classe {
 		Contas segundaConta = new Contas();
 		segundaConta.agencia = 001;
 		segundaConta.numeroDaConta = 1836346;
-		segundaConta.titular = "Alane de Castro Canela";
-		
+		segundaConta.titular = "Beltrano da Silva";		
 		System.out.println("Saldo em conta: R$" + segundaConta.saldo);
 		System.out.println("Agencia: " + segundaConta.agencia);
 		System.out.println("Conta: " + segundaConta.numeroDaConta);
